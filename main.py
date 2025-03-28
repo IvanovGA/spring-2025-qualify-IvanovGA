@@ -4,6 +4,7 @@
 from flyer import Flyer
 from rover import Rover
 from logger import Logger
+from navigator import Navigator
 
 import time
 import cv2
@@ -12,19 +13,20 @@ import sys
 
 
 class App:
-    def __init__(self, rover_config=None, flyer_config=None, logger=None):
+    def __init__(self, rover_config=None, flyer_config=None, navigator=None, logger=None):
         self.logger = logger
+        self.navigator=navigator
         if self.logger:
             self.logger << f"Создан экземпляр App с параметрами: rover_config={rover_config}, flyer_config={flyer_config}"
         self.flyer = Flyer(config=flyer_config, logger=logger)
         self.rover = Rover(config=rover_config, logger=logger)
         # Остальной код, например, запуска потоков или основной цикл приложения.
-    
+        
     def run(self):
         if self.logger:
             self.logger << f"Запуск основной логики"
-        points =  {   "Точка1": {"lat": 0, "lon": 0, "alt": 1},
-                "Точка2": {"lat": 1, "lon": -1, "alt": 2}}
+        points =  self.navigator.generate_random_route(points=50)
+        #{   "Точка1": {"lat": 0, "lon": 0, "alt": 1},    "Точка2": {"lat": 1, "lon": -1, "alt": 2}}
   
         if self.flyer:
          self.flyer.fly_by_points(points)
@@ -66,9 +68,10 @@ if __name__ == "__main__":
 
     # Создаем экземпляр логгера
     logger = Logger()
-
+    navigator=Navigator(logger=logger)
+    
     # Запускаем приложение
-    app = App(rover_config=rover_config, flyer_config=flyer_config, logger=logger)
+    app = App(rover_config=rover_config, flyer_config=flyer_config,navigator=navigator, logger=logger)
     app.run()
     app.close()
     

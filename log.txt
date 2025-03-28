@@ -1,0 +1,171 @@
+2025-03-29 01:37:46,858 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/main.py:20: INFO: Создан экземпляр App с параметрами: rover_config={'ip': '127.0.0.1', 'port': 8001}, flyer_config={'ip': '127.0.0.1', 'm_port': 8000, 'c_port': 18000}
+2025-03-29 01:37:46,858 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:11: INFO: __________________FLYER____________________________________
+2025-03-29 01:37:46,858 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:12: INFO: Создается экземпляр Flyer с конфигурацией: {'ip': '127.0.0.1', 'm_port': 8000, 'c_port': 18000}
+2025-03-29 01:37:46,859 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:19: INFO: Базовый класс Pioneer инициализирован: <flyer.Flyer object at 0x70c5449f74d0> с параметрами: {'BatteryLow': None, 'NavSystem': None, 'Area': None, 'Attitude': None, 'RcExpected': None, 'RcMode': None, 'RcUnexpected': None, 'UavStartAllowed': None}
+2025-03-29 01:37:46,859 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:30: INFO: Создан экземпляр камеры (Camera): <pioneer_sdk.camera.Camera object at 0x70c5442286e0>
+2025-03-29 01:37:46,860 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/rover.py:8: INFO: Создается экземпляр Rover с параметрами {'ip': '127.0.0.1', 'port': 8001}
+2025-03-29 01:37:46,860 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/main.py:27: INFO: Запуск основной логики
+2025-03-29 01:37:46,860 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/navigator.py:19: INFO: Сгенерирован случайный маршрут{'Точка 0': {'lat': -18, 'lon': -5, 'alt': 5}, 'Точка 1': {'lat': -41, 'lon': 17, 'alt': 5}, 'Точка 2': {'lat': -80, 'lon': 36, 'alt': 5}, 'Точка 3': {'lat': 9, 'lon': 68, 'alt': 5}, 'Точка 4': {'lat': -49, 'lon': -75, 'alt': 5}, 'Точка 5': {'lat': -33, 'lon': -63, 'alt': 5}, 'Точка 6': {'lat': 18, 'lon': -60, 'alt': 5}, 'Точка 7': {'lat': 63, 'lon': 52, 'alt': 5}, 'Точка 8': {'lat': -25, 'lon': -20, 'alt': 5}, 'Точка 9': {'lat': 15, 'lon': 49, 'alt': 5}, 'Точка 10': {'lat': 77, 'lon': 98, 'alt': 5}, 'Точка 11': {'lat': 62, 'lon': -15, 'alt': 5}, 'Точка 12': {'lat': 21, 'lon': 39, 'alt': 5}, 'Точка 13': {'lat': 37, 'lon': 83, 'alt': 5}, 'Точка 14': {'lat': -36, 'lon': -42, 'alt': 5}, 'Точка 15': {'lat': -28, 'lon': -87, 'alt': 5}, 'Точка 16': {'lat': 77, 'lon': -42, 'alt': 5}, 'Точка 17': {'lat': -61, 'lon': -11, 'alt': 5}, 'Точка 18': {'lat': 79, 'lon': 28, 'alt': 5}, 'Точка 19': {'lat': 38, 'lon': 100, 'alt': 5}, 'Точка 20': {'lat': -23, 'lon': 11, 'alt': 5}, 'Точка 21': {'lat': -47, 'lon': 65, 'alt': 5}, 'Точка 22': {'lat': -93, 'lon': 99, 'alt': 5}, 'Точка 23': {'lat': 92, 'lon': -19, 'alt': 5}, 'Точка 24': {'lat': -22, 'lon': 75, 'alt': 5}, 'Точка 25': {'lat': -71, 'lon': 17, 'alt': 5}, 'Точка 26': {'lat': -61, 'lon': 37, 'alt': 5}, 'Точка 27': {'lat': -22, 'lon': -26, 'alt': 5}, 'Точка 28': {'lat': 36, 'lon': -64, 'alt': 5}, 'Точка 29': {'lat': 70, 'lon': 17, 'alt': 5}, 'Точка 30': {'lat': -87, 'lon': -32, 'alt': 5}, 'Точка 31': {'lat': 27, 'lon': 43, 'alt': 5}, 'Точка 32': {'lat': -93, 'lon': -71, 'alt': 5}, 'Точка 33': {'lat': -21, 'lon': -10, 'alt': 5}, 'Точка 34': {'lat': -28, 'lon': -77, 'alt': 5}, 'Точка 35': {'lat': 7, 'lon': 87, 'alt': 5}, 'Точка 36': {'lat': 63, 'lon': 41, 'alt': 5}, 'Точка 37': {'lat': 54, 'lon': 59, 'alt': 5}, 'Точка 38': {'lat': -7, 'lon': 1, 'alt': 5}, 'Точка 39': {'lat': -51, 'lon': -83, 'alt': 5}, 'Точка 40': {'lat': 24, 'lon': 28, 'alt': 5}, 'Точка 41': {'lat': 8, 'lon': 17, 'alt': 5}, 'Точка 42': {'lat': -20, 'lon': -19, 'alt': 5}, 'Точка 43': {'lat': 62, 'lon': -92, 'alt': 5}, 'Точка 44': {'lat': 40, 'lon': 91, 'alt': 5}, 'Точка 45': {'lat': 83, 'lon': -67, 'alt': 5}, 'Точка 46': {'lat': 24, 'lon': -13, 'alt': 5}, 'Точка 47': {'lat': 53, 'lon': 58, 'alt': 5}, 'Точка 48': {'lat': -81, 'lon': -69, 'alt': 5}, 'Точка 49': {'lat': 19, 'lon': 26, 'alt': 5}}
+2025-03-29 01:37:46,860 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:91: INFO: <<<<<<<<<________ПОЛЕТ_____>>>>>>>>>>>
+2025-03-29 01:37:46,860 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:92: INFO: Начало полета по заданным точкам.
+2025-03-29 01:37:46,860 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:100: INFO:  <flyer.Flyer object at 0x70c5449f74d0> начальные координаты: None
+2025-03-29 01:37:50,705 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:109: INFO:  Лежим? 'True' Летим? True
+2025-03-29 01:37:50,705 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:119: INFO: Перелет к точке 'Точка 0' с координатами: lat=-18,lon=-5,alt=5
+2025-03-29 01:37:50,705 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:38: INFO: Целевые координаты (-18, -5, 5) 
+2025-03-29 01:37:50,705 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:43: INFO: Текущие координаты [35.902286529541016, -4.331459999084473, 2.2450106143951416]
+2025-03-29 01:37:50,705 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:60: INFO: Вычисленный тангаж -3.1291904761189158 последние координаты [35.902286529541016, -4.331459999084473, 2.2450106143951416]
+2025-03-29 01:37:55,820 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:71: INFO: Продолжительность полета 5.099999999999998 в точку (-18, -5, 5)
+2025-03-29 01:37:55,820 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:127: INFO: Успешно достигнута точка 'Точка 0' с результатом  True.
+2025-03-29 01:37:55,820 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:109: INFO:  Лежим? 'True' Летим? True
+2025-03-29 01:37:55,820 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:119: INFO: Перелет к точке 'Точка 1' с координатами: lat=-41,lon=17,alt=5
+2025-03-29 01:37:55,820 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:38: INFO: Целевые координаты (-41, 17, 5) 
+2025-03-29 01:37:55,821 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:43: INFO: Текущие координаты [35.4710578918457, -4.596446990966797, 5.378518581390381]
+2025-03-29 01:37:55,821 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:60: INFO: Вычисленный тангаж 2.866347464735839 последние координаты [35.4710578918457, -4.596446990966797, 5.378518581390381]
+2025-03-29 01:38:00,950 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:71: INFO: Продолжительность полета 5.099999999999998 в точку (-41, 17, 5)
+2025-03-29 01:38:00,951 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:127: INFO: Успешно достигнута точка 'Точка 1' с результатом  True.
+2025-03-29 01:38:00,951 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:109: INFO:  Лежим? 'True' Летим? True
+2025-03-29 01:38:00,951 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:119: INFO: Перелет к точке 'Точка 2' с координатами: lat=-80,lon=36,alt=5
+2025-03-29 01:38:00,951 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:38: INFO: Целевые координаты (-80, 36, 5) 
+2025-03-29 01:38:00,951 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:43: INFO: Текущие координаты [34.0124397277832, -4.115710258483887, 5.2729997634887695]
+2025-03-29 01:38:00,951 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:60: INFO: Вычисленный тангаж 2.803267296819038 последние координаты [34.0124397277832, -4.115710258483887, 5.2729997634887695]
+2025-03-29 01:38:06,069 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:71: INFO: Продолжительность полета 5.099999999999998 в точку (-80, 36, 5)
+2025-03-29 01:38:06,069 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:127: INFO: Успешно достигнута точка 'Точка 2' с результатом  True.
+2025-03-29 01:38:06,069 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:109: INFO:  Лежим? 'True' Летим? True
+2025-03-29 01:38:06,069 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:119: INFO: Перелет к точке 'Точка 3' с координатами: lat=9,lon=68,alt=5
+2025-03-29 01:38:06,069 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:38: INFO: Целевые координаты (9, 68, 5) 
+2025-03-29 01:38:06,070 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:43: INFO: Текущие координаты [33.18150329589844, -3.966376781463623, 4.671865940093994]
+2025-03-29 01:38:06,070 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:60: INFO: Вычисленный тангаж 1.8949549554287992 последние координаты [33.18150329589844, -3.966376781463623, 4.671865940093994]
+2025-03-29 01:38:11,180 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:71: INFO: Продолжительность полета 5.099999999999998 в точку (9, 68, 5)
+2025-03-29 01:38:11,180 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:127: INFO: Успешно достигнута точка 'Точка 3' с результатом  True.
+2025-03-29 01:38:11,180 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:109: INFO:  Лежим? 'True' Летим? True
+2025-03-29 01:38:11,180 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:119: INFO: Перелет к точке 'Точка 4' с координатами: lat=-49,lon=-75,alt=5
+2025-03-29 01:38:11,180 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:38: INFO: Целевые координаты (-49, -75, 5) 
+2025-03-29 01:38:11,180 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:43: INFO: Текущие координаты [33.00331497192383, -2.8676955699920654, 5.051077365875244]
+2025-03-29 01:38:11,180 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:60: INFO: Вычисленный тангаж -2.420148228893165 последние координаты [33.00331497192383, -2.8676955699920654, 5.051077365875244]
+2025-03-29 01:38:16,297 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:71: INFO: Продолжительность полета 5.099999999999998 в точку (-49, -75, 5)
+2025-03-29 01:38:16,297 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:127: INFO: Успешно достигнута точка 'Точка 4' с результатом  True.
+2025-03-29 01:38:16,297 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:109: INFO:  Лежим? 'True' Летим? True
+2025-03-29 01:38:16,297 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:119: INFO: Перелет к точке 'Точка 5' с координатами: lat=-33,lon=-63,alt=5
+2025-03-29 01:38:16,299 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:38: INFO: Целевые координаты (-33, -63, 5) 
+2025-03-29 01:38:16,302 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:43: INFO: Текущие координаты [31.782072067260742, -2.465442657470703, 5.028268337249756]
+2025-03-29 01:38:16,302 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:60: INFO: Вычисленный тангаж -2.390075782086591 последние координаты [31.782072067260742, -2.465442657470703, 5.028268337249756]
+2025-03-29 01:38:21,423 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:71: INFO: Продолжительность полета 5.099999999999998 в точку (-33, -63, 5)
+2025-03-29 01:38:21,423 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:127: INFO: Успешно достигнута точка 'Точка 5' с результатом  True.
+2025-03-29 01:38:21,424 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:109: INFO:  Лежим? 'True' Летим? True
+2025-03-29 01:38:21,424 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:119: INFO: Перелет к точке 'Точка 6' с координатами: lat=18,lon=-60,alt=5
+2025-03-29 01:38:21,424 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:38: INFO: Целевые координаты (18, -60, 5) 
+2025-03-29 01:38:21,424 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:43: INFO: Текущие координаты [31.453697204589844, -5.362022876739502, 4.968981742858887]
+2025-03-29 01:38:21,424 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:60: INFO: Вычисленный тангаж -1.8122268650909046 последние координаты [31.453697204589844, -5.362022876739502, 4.968981742858887]
+2025-03-29 01:38:26,537 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:71: INFO: Продолжительность полета 5.099999999999998 в точку (18, -60, 5)
+2025-03-29 01:38:26,537 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:127: INFO: Успешно достигнута точка 'Точка 6' с результатом  True.
+2025-03-29 01:38:26,537 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:109: INFO:  Лежим? 'True' Летим? True
+2025-03-29 01:38:26,537 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:119: INFO: Перелет к точке 'Точка 7' с координатами: lat=63,lon=52,alt=5
+2025-03-29 01:38:26,537 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:38: INFO: Целевые координаты (63, 52, 5) 
+2025-03-29 01:38:26,537 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:43: INFO: Текущие координаты [31.0958194732666, -3.8978731632232666, 5.04741907119751]
+2025-03-29 01:38:26,537 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:60: INFO: Вычисленный тангаж 1.0521555662128401 последние координаты [31.0958194732666, -3.8978731632232666, 5.04741907119751]
+2025-03-29 01:38:31,655 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:71: INFO: Продолжительность полета 5.099999999999998 в точку (63, 52, 5)
+2025-03-29 01:38:31,656 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:127: INFO: Успешно достигнута точка 'Точка 7' с результатом  True.
+2025-03-29 01:38:31,656 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:109: INFO:  Лежим? 'True' Летим? True
+2025-03-29 01:38:31,656 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:119: INFO: Перелет к точке 'Точка 8' с координатами: lat=-25,lon=-20,alt=5
+2025-03-29 01:38:31,656 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:38: INFO: Целевые координаты (-25, -20, 5) 
+2025-03-29 01:38:31,656 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:43: INFO: Текущие координаты [31.10675048828125, -6.381816864013672, 4.903550624847412]
+2025-03-29 01:38:31,656 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:60: INFO: Вычисленный тангаж -2.9034782010542575 последние координаты [31.10675048828125, -6.381816864013672, 4.903550624847412]
+2025-03-29 01:38:36,767 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:71: INFO: Продолжительность полета 5.099999999999998 в точку (-25, -20, 5)
+2025-03-29 01:38:36,768 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:127: INFO: Успешно достигнута точка 'Точка 8' с результатом  True.
+2025-03-29 01:38:36,768 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:109: INFO:  Лежим? 'True' Летим? True
+2025-03-29 01:38:36,768 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:119: INFO: Перелет к точке 'Точка 9' с координатами: lat=15,lon=49,alt=5
+2025-03-29 01:38:36,768 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:38: INFO: Целевые координаты (15, 49, 5) 
+2025-03-29 01:38:36,768 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:43: INFO: Текущие координаты [34.143009185791016, -3.0011935234069824, 4.863650798797607]
+2025-03-29 01:38:36,768 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:60: INFO: Вычисленный тангаж 1.9235272012830253 последние координаты [34.143009185791016, -3.0011935234069824, 4.863650798797607]
+2025-03-29 01:38:41,882 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:71: INFO: Продолжительность полета 5.099999999999998 в точку (15, 49, 5)
+2025-03-29 01:38:41,882 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:127: INFO: Успешно достигнута точка 'Точка 9' с результатом  True.
+2025-03-29 01:38:41,882 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:109: INFO:  Лежим? 'True' Летим? True
+2025-03-29 01:38:41,882 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:119: INFO: Перелет к точке 'Точка 10' с координатами: lat=77,lon=98,alt=5
+2025-03-29 01:38:41,882 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:38: INFO: Целевые координаты (77, 98, 5) 
+2025-03-29 01:38:41,882 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:43: INFO: Текущие координаты [29.324377059936523, -4.273029804229736, 4.996067047119141]
+2025-03-29 01:38:41,882 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:60: INFO: Вычисленный тангаж 1.1345850863334703 последние координаты [29.324377059936523, -4.273029804229736, 4.996067047119141]
+2025-03-29 01:38:46,991 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:71: INFO: Продолжительность полета 5.099999999999998 в точку (77, 98, 5)
+2025-03-29 01:38:46,991 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:127: INFO: Успешно достигнута точка 'Точка 10' с результатом  True.
+2025-03-29 01:38:46,991 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:109: INFO:  Лежим? 'True' Летим? True
+2025-03-29 01:38:46,991 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:119: INFO: Перелет к точке 'Точка 11' с координатами: lat=62,lon=-15,alt=5
+2025-03-29 01:38:46,991 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:38: INFO: Целевые координаты (62, -15, 5) 
+2025-03-29 01:38:46,992 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:43: INFO: Текущие координаты [30.067262649536133, -2.914214611053467, 4.821629524230957]
+2025-03-29 01:38:46,993 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:60: INFO: Вычисленный тангаж -0.36181492704021645 последние координаты [30.067262649536133, -2.914214611053467, 4.821629524230957]
+2025-03-29 01:38:52,102 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:71: INFO: Продолжительность полета 5.099999999999998 в точку (62, -15, 5)
+2025-03-29 01:38:52,102 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:127: INFO: Успешно достигнута точка 'Точка 11' с результатом  True.
+2025-03-29 01:38:52,102 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:109: INFO:  Лежим? 'True' Летим? True
+2025-03-29 01:38:52,102 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:119: INFO: Перелет к точке 'Точка 12' с координатами: lat=21,lon=39,alt=5
+2025-03-29 01:38:52,102 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:38: INFO: Целевые координаты (21, 39, 5) 
+2025-03-29 01:38:52,102 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:43: INFO: Текущие координаты [27.352144241333008, -4.334749221801758, 0.3115994334220886]
+2025-03-29 01:38:52,102 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:60: INFO: Вычисленный тангаж 1.7163429528499194 последние координаты [27.352144241333008, -4.334749221801758, 0.3115994334220886]
+2025-03-29 01:39:02,223 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:71: INFO: Продолжительность полета 5.099999999999998 в точку (21, 39, 5)
+2025-03-29 01:39:02,224 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:127: INFO: Успешно достигнута точка 'Точка 12' с результатом  False.
+2025-03-29 01:39:11,237 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:109: INFO:  Лежим? 'True' Летим? False
+2025-03-29 01:39:11,237 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:119: INFO: Перелет к точке 'Точка 13' с координатами: lat=37,lon=83,alt=5
+2025-03-29 01:39:11,237 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:38: INFO: Целевые координаты (37, 83, 5) 
+2025-03-29 01:39:11,237 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:43: INFO: Текущие координаты [25.988300323486328, -3.375321388244629, 0.2250767946243286]
+2025-03-29 01:39:11,237 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:60: INFO: Вычисленный тангаж 1.4439937002497047 последние координаты [25.988300323486328, -3.375321388244629, 0.2250767946243286]
+2025-03-29 01:39:21,363 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:71: INFO: Продолжительность полета 5.099999999999998 в точку (37, 83, 5)
+2025-03-29 01:39:21,363 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:127: INFO: Успешно достигнута точка 'Точка 13' с результатом  False.
+2025-03-29 01:39:30,381 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:109: INFO:  Лежим? 'True' Летим? False
+2025-03-29 01:39:30,381 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:119: INFO: Перелет к точке 'Точка 14' с координатами: lat=-36,lon=-42,alt=5
+2025-03-29 01:39:30,382 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:38: INFO: Целевые координаты (-36, -42, 5) 
+2025-03-29 01:39:30,382 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:43: INFO: Текущие координаты [25.9830379486084, -3.3806169033050537, 0.2252415120601654]
+2025-03-29 01:39:30,382 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:60: INFO: Вычисленный тангаж -2.584386920818601 последние координаты [25.9830379486084, -3.3806169033050537, 0.2252415120601654]
+2025-03-29 01:39:40,499 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:71: INFO: Продолжительность полета 5.099999999999998 в точку (-36, -42, 5)
+2025-03-29 01:39:40,500 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:127: INFO: Успешно достигнута точка 'Точка 14' с результатом  False.
+2025-03-29 01:39:49,511 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:109: INFO:  Лежим? 'True' Летим? False
+2025-03-29 01:39:49,512 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:119: INFO: Перелет к точке 'Точка 15' с координатами: lat=-28,lon=-87,alt=5
+2025-03-29 01:39:49,512 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:38: INFO: Целевые координаты (-28, -87, 5) 
+2025-03-29 01:39:49,512 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:43: INFO: Текущие координаты [26.01356315612793, -3.3938305377960205, 0.22728624939918518]
+2025-03-29 01:39:49,512 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:60: INFO: Вычисленный тангаж -2.1443880222949674 последние координаты [26.01356315612793, -3.3938305377960205, 0.22728624939918518]
+2025-03-29 01:39:59,627 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:71: INFO: Продолжительность полета 5.099999999999998 в точку (-28, -87, 5)
+2025-03-29 01:39:59,627 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:127: INFO: Успешно достигнута точка 'Точка 15' с результатом  False.
+2025-03-29 01:40:08,642 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:109: INFO:  Лежим? 'True' Летим? False
+2025-03-29 01:40:08,643 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:119: INFO: Перелет к точке 'Точка 16' с координатами: lat=77,lon=-42,alt=5
+2025-03-29 01:40:08,643 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:38: INFO: Целевые координаты (77, -42, 5) 
+2025-03-29 01:40:08,644 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:43: INFO: Текущие координаты [25.85106086730957, -3.6631174087524414, 0.22591716051101685]
+2025-03-29 01:40:08,644 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:60: INFO: Вычисленный тангаж -0.6431904547245614 последние координаты [25.85106086730957, -3.6631174087524414, 0.22591716051101685]
+2025-03-29 01:40:18,762 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:71: INFO: Продолжительность полета 5.099999999999998 в точку (77, -42, 5)
+2025-03-29 01:40:18,762 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:127: INFO: Успешно достигнута точка 'Точка 16' с результатом  False.
+2025-03-29 01:40:27,782 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:109: INFO:  Лежим? 'True' Летим? False
+2025-03-29 01:40:27,782 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:119: INFO: Перелет к точке 'Точка 17' с координатами: lat=-61,lon=-11,alt=5
+2025-03-29 01:40:27,782 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:38: INFO: Целевые координаты (-61, -11, 5) 
+2025-03-29 01:40:27,782 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:43: INFO: Текущие координаты [25.722354888916016, -3.673431396484375, 0.22675436735153198]
+2025-03-29 01:40:27,782 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:60: INFO: Вычисленный тангаж -3.0573097482862694 последние координаты [25.722354888916016, -3.673431396484375, 0.22675436735153198]
+2025-03-29 01:40:37,897 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:71: INFO: Продолжительность полета 5.099999999999998 в точку (-61, -11, 5)
+2025-03-29 01:40:37,897 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:127: INFO: Успешно достигнута точка 'Точка 17' с результатом  False.
+2025-03-29 01:40:46,909 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:109: INFO:  Лежим? 'True' Летим? False
+2025-03-29 01:40:46,910 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:119: INFO: Перелет к точке 'Точка 18' с координатами: lat=79,lon=28,alt=5
+2025-03-29 01:40:46,910 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:38: INFO: Целевые координаты (79, 28, 5) 
+2025-03-29 01:40:46,910 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:43: INFO: Текущие координаты [25.71804428100586, -3.6727888584136963, 0.2268703281879425]
+2025-03-29 01:40:46,910 [INFO]: /home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py:60: INFO: Вычисленный тангаж 0.5363193365718333 последние координаты [25.71804428100586, -3.6727888584136963, 0.2268703281879425]
+2025-03-29 01:40:49,680 [ERROR]: Необработанное исключение:
+Traceback (most recent call last):
+  File "/home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/main.py", line 75, in <module>
+    app.run()
+    ~~~~~~~^^
+  File "/home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/main.py", line 32, in run
+    self.flyer.fly_by_points(points)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py", line 122, in fly_by_points
+    rez = self.fly_to_point(
+        target_x=lat, target_y=lon, target_z=alt
+    )
+  File "/home/gri/Programming/Python/Geoscan/spring-2025-qualify-IvanovGA/flyer.py", line 65, in fly_to_point
+    rez= self.go_to_local_point(x=target_x, y=target_y, z=target_z, yaw=yaw)
+  File "/home/gri/Programming/Python/Geoscan/lib/python3.13/site-packages/pioneer_sdk/piosdk.py", line 368, in go_to_local_point
+    return self._send_position_target_local_ned(command_name=cmd_name,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+                                                coordinate_system=mavutil.mavlink.MAV_FRAME_LOCAL_NED,
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                mask=mask, x=x, y=y, z=z, yaw=yaw)
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gri/Programming/Python/Geoscan/lib/python3.13/site-packages/pioneer_sdk/piosdk.py", line 342, in _send_position_target_local_ned
+    event.wait(self._mavlink_send_timeout)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/threading.py", line 659, in wait
+    signaled = self._cond.wait(timeout)
+  File "/usr/lib/python3.13/threading.py", line 363, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt

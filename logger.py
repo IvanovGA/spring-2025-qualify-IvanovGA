@@ -13,8 +13,8 @@ class Logger:
         # Устанавливаем уровень логирования
         root_logger.setLevel(logging.INFO)
 
-        # Создаем форматтер
-        formatter = logging.Formatter("%(asctime)s - %(message)s")
+        # Создаем форматтер    format="%(asctime)s [%(levelname)s]: %(message)s"
+        formatter = logging.Formatter("%(asctime)s [%(levelname)s]: %(message)s")
 
         # Настраиваем обработчик для файла
         file_handler = logging.FileHandler(logfile_name, mode=mode)
